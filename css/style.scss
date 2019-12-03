@@ -756,6 +756,7 @@ body {
             &-right{
                 text-align: center;
                 width: 50%;
+                padding: 0 10px;
                 &-title{
                     margin-top: 10px;
                     & h2{
@@ -791,7 +792,8 @@ body {
                     margin-top: 50px;
                     &-item{
                         margin-bottom: 35px;
-                        display: inline-block;
+                        display: flex;
+                        justify-content: space-between;
                         width: 100%;
                         color: #81868e;
                         font-family: "Source Sans Pro";
