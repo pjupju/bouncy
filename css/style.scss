@@ -714,3 +714,107 @@ body {
 .slick-prev:before, .slick-prev:after, .slick-next:before {
     content: '';
 }
+
+.team {
+    &__content{
+        padding: 80px 50px 100px;
+        &-top{
+            text-align: center;
+            padding: 0 25px;
+            &-title{
+                color: #333b46;
+                font-family: 'Source Sans Pro';
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 12px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            &-descr{
+                margin-top: 40px;
+                color: #81868e;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &-slider {
+            width: 100%;
+        }
+        &-item{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            padding: 0 130px;
+            margin-bottom: 60px;
+            &-left img{
+              width: 364px;
+              height: auto;
+            }
+            &-right{
+                text-align: center;
+                width: 50%;
+                &-title{
+                    margin-top: 10px;
+                    & h2{
+                        color: #464646;
+                        font-family: "Open Sans";
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 25px;
+                        letter-spacing: 0.8px;
+                    }
+                    & span{
+                        margin-top: 15px;
+                        color: #81868e;
+                        font-family: "Source Sans Pro";
+                        font-size: 14px;
+                        font-weight: 300;
+                        font-style: italic;
+                        line-height: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 1.4px;
+                    }
+                }
+                &-descr{
+                    margin-top: 30px;
+                    color: #81868e;
+                    font-family: "Open Sans";
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0.7px;
+                }
+                &-diagramm{
+                    margin-top: 50px;
+                    &-item{
+                        margin-bottom: 35px;
+                        display: inline-block;
+                        width: 100%;
+                        color: #81868e;
+                        font-family: "Source Sans Pro";
+                        font-size: 16px;
+                        font-weight: 300;
+                        line-height: 25px;
+                        text-transform: uppercase;
+                        letter-spacing: 1.6px;
+                        &-title{
+                            float: left;
+                            margin-bottom: 10px;
+                        }
+                        &-percent{
+                            float: right;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: space-between;
+}

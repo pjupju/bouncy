@@ -872,4 +872,130 @@ body {
 .slick-prev:before, .slick-prev:after, .slick-next:before {
   content: '';
 }
+
+.team__content {
+  padding: 80px 50px 100px;
+}
+
+.team__content-top {
+  text-align: center;
+  padding: 0 25px;
+}
+
+.team__content-top-title {
+  color: #333b46;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.team__content-top-descr {
+  margin-top: 40px;
+  color: #81868e;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.team__content-slider {
+  width: 100%;
+}
+
+.team__content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+  padding: 0 130px;
+  margin-bottom: 60px;
+}
+
+.team__content-item-left img {
+  width: 364px;
+  height: auto;
+}
+
+.team__content-item-right {
+  text-align: center;
+  width: 50%;
+}
+
+.team__content-item-right-title {
+  margin-top: 10px;
+}
+
+.team__content-item-right-title h2 {
+  color: #464646;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+}
+
+.team__content-item-right-title span {
+  margin-top: 15px;
+  color: #81868e;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+}
+
+.team__content-item-right-descr {
+  margin-top: 30px;
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.team__content-item-right-diagramm {
+  margin-top: 50px;
+}
+
+.team__content-item-right-diagramm-item {
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 100%;
+  color: #81868e;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+}
+
+.team__content-item-right-diagramm-item-title {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.team__content-item-right-diagramm-item-percent {
+  float: right;
+  margin-bottom: 10px;
+}
+
+.slick-initialized .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=style.css.map */
