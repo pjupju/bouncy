@@ -747,7 +747,7 @@ body {
             display: flex;
             justify-content: space-between;
             margin-top: 60px;
-            padding: 0 130px;
+            padding: 0 50px;
             margin-bottom: 60px;
             &-left img{
               width: 364px;
@@ -755,8 +755,8 @@ body {
             }
             &-right{
                 text-align: center;
-                width: 50%;
-                padding: 0 10px;
+                width: 100%;
+                padding: 30px 50px 0;
                 &-title{
                     margin-top: 10px;
                     & h2{
@@ -780,7 +780,7 @@ body {
                     }
                 }
                 &-descr{
-                    margin-top: 30px;
+                    margin: 30px 0 50px;
                     color: #81868e;
                     font-family: "Open Sans";
                     font-size: 14px;
@@ -789,12 +789,10 @@ body {
                     letter-spacing: 0.7px;
                 }
                 &-diagramm{
-                    margin-top: 50px;
-                    &-item{
-                        margin-bottom: 35px;
+                    margin: 2% 5% 0 5%;
+                    & .proc{
                         display: flex;
                         justify-content: space-between;
-                        width: 100%;
                         color: #81868e;
                         font-family: "Source Sans Pro";
                         font-size: 16px;
@@ -802,14 +800,27 @@ body {
                         line-height: 25px;
                         text-transform: uppercase;
                         letter-spacing: 1.6px;
-                        &-title{
-                            float: left;
-                            margin-bottom: 10px;
-                        }
-                        &-percent{
-                            float: right;
-                            margin-bottom: 10px;
-                        }
+                    }
+                    & .gradient{
+                        max-width: 366px;
+                        padding: 1rem;
+                        position: relative;
+                        background: linear-gradient(to right, #19bd9a 80%, rgb(177, 175, 175) 20%);
+                        padding: 3px;
+                    }
+                    & .gradient-1{
+                        max-width: 366px;
+                        padding: 1rem;
+                        position: relative;
+                        background: linear-gradient(to right, #19bd9a 65%, rgb(177, 175, 175) 35%);
+                        padding: 3px;
+                    }
+                    & .gradient-2{
+                        max-width: 366px;
+                        padding: 1rem;
+                        position: relative;
+                        background: linear-gradient(to right, #19bd9a 75%, rgb(177, 175, 175) 25%);
+                        padding: 3px;
                     }
                 }
             }
@@ -820,3 +831,5 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+

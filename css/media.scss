@@ -199,6 +199,19 @@
             flex-wrap: wrap;
         }    
     }
+    .team__content-item{
+        padding: 0 10px;
+        &-left img{
+            width: 270px;
+            height: auto;
+        }
+        &-right {
+            padding: 0 10px 0 50px;
+            &-descr{
+                margin-bottom: 20px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 768px) {
     .header {
@@ -275,6 +288,19 @@
             height: 250px; 
         }
     }
+    .team__content-item{
+        padding: 0 5px;
+        &-left img{
+            width: 240px;
+            height: auto;
+        }
+        &-right {
+            padding: 0 10px 0 20px;
+            &-descr{
+                margin: 10px 0 10px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 675px) {
@@ -292,6 +318,22 @@
         &-right-img img {
             width: 320px;
             height: auto;
+        }
+    }
+    .team__content {
+        padding: 80px 10px 50px;
+        &-item{
+            padding: 0 5px;
+            &-left img{
+                width: 240px;
+                height: auto;
+            }
+            &-right {
+                padding: 0 10px 0 20px;
+                &-descr{
+                    margin: 10px 0 10px;
+                }
+            }
         }
     }
 }
@@ -378,6 +420,29 @@
             height: auto;
         }
     }
+    .team__content {
+        padding: 80px 10px 50px;
+        &-item{
+            padding: 0 5px;
+            &-left img{
+                width: 210px;
+                height: auto;
+            }
+            &-right {
+                padding: 0 10px 0 10px;
+                &-title{
+                    margin-top: 0;
+                    & h2{
+                        line-height: 20px;
+                        margin-top: 0;
+                    }
+                }
+                &-descr{
+                    margin: 5px 0 5px;
+                }
+            }
+        }
+    }
 }    
 @media screen and (max-width: 520px) {
     .about {
@@ -445,6 +510,18 @@
         }
         &-bottom{
             padding: 40px 10px;
+        }
+    }
+    .team__content-item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        &-left{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &-right-descr{
+            margin-bottom: 10px;
         }
     }
 }

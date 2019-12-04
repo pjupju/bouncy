@@ -914,7 +914,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 60px;
-  padding: 0 130px;
+  padding: 0 50px;
   margin-bottom: 60px;
 }
 
@@ -925,7 +925,8 @@ body {
 
 .team__content-item-right {
   text-align: center;
-  width: 50%;
+  width: 100%;
+  padding: 30px 50px 0;
 }
 
 .team__content-item-right-title {
@@ -954,7 +955,7 @@ body {
 }
 
 .team__content-item-right-descr {
-  margin-top: 30px;
+  margin: 30px 0 50px;
   color: #81868e;
   font-family: "Open Sans";
   font-size: 14px;
@@ -964,13 +965,16 @@ body {
 }
 
 .team__content-item-right-diagramm {
-  margin-top: 50px;
+  margin: 2% 5% 0 5%;
 }
 
-.team__content-item-right-diagramm-item {
-  margin-bottom: 35px;
-  display: inline-block;
-  width: 100%;
+.team__content-item-right-diagramm .proc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #81868e;
   font-family: "Source Sans Pro";
   font-size: 16px;
@@ -980,14 +984,31 @@ body {
   letter-spacing: 1.6px;
 }
 
-.team__content-item-right-diagramm-item-title {
-  float: left;
-  margin-bottom: 10px;
+.team__content-item-right-diagramm .gradient {
+  max-width: 366px;
+  padding: 1rem;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(80%, #19bd9a), color-stop(20%, #b1afaf));
+  background: linear-gradient(to right, #19bd9a 80%, #b1afaf 20%);
+  padding: 3px;
 }
 
-.team__content-item-right-diagramm-item-percent {
-  float: right;
-  margin-bottom: 10px;
+.team__content-item-right-diagramm .gradient-1 {
+  max-width: 366px;
+  padding: 1rem;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(65%, #19bd9a), color-stop(35%, #b1afaf));
+  background: linear-gradient(to right, #19bd9a 65%, #b1afaf 35%);
+  padding: 3px;
+}
+
+.team__content-item-right-diagramm .gradient-2 {
+  max-width: 366px;
+  padding: 1rem;
+  position: relative;
+  background: -webkit-gradient(linear, left top, right top, color-stop(75%, #19bd9a), color-stop(25%, #b1afaf));
+  background: linear-gradient(to right, #19bd9a 75%, #b1afaf 25%);
+  padding: 3px;
 }
 
 .slick-initialized .slick-slide {
