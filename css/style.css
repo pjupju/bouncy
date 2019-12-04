@@ -1023,4 +1023,34 @@ body {
 .slick-initialized .slick-slide img {
   display: inline-block;
 }
+
+.contact {
+  background: url(../img/contact-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 201px;
+  width: 100%;
+  padding: 55px 175px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.8px;
+}
+
+.contact .default-btn a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 12px;
+  padding: 10px 50px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -353,9 +353,6 @@
   .about__content {
     margin-left: 16%;
   }
-  .bouncy__content-left-descr {
-    max-width: 320px;
-  }
   .impressed__content {
     padding: 60px 40px 80px;
   }
@@ -378,6 +375,9 @@
   }
   .team__content-item-right-descr {
     margin: 10px 0 10px;
+  }
+  .contact {
+    padding: 55px 0;
   }
 }
 
@@ -472,7 +472,7 @@
     height: auto;
   }
   .team__content {
-    padding: 80px 10px 50px;
+    padding: 60px 10px 20px;
   }
   .team__content-item {
     padding: 0 5px;
@@ -590,7 +590,7 @@
     margin-bottom: 10px;
   }
   .slick-dots {
-    bottom: 5px;
+    bottom: -10px;
   }
 }
 
@@ -696,9 +696,6 @@
   .team__content-top-descr {
     font-size: 12px;
     margin-top: 20px;
-  }
-  .slick-dots {
-    bottom: 5px;
   }
 }
 /*# sourceMappingURL=media.css.map */

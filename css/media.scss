@@ -310,9 +310,6 @@
     .about__content {
         margin-left: 16%;
     }
-    .bouncy__content-left-descr {
-        max-width: 320px;
-    }
     .impressed__content{
         padding: 60px 40px 80px;
         &-right-img img {
@@ -336,6 +333,9 @@
             }
         }
     }
+    .contact{
+        padding: 55px 0;
+    }    
 }
 @media screen and (max-width: 600px) {
     .about {
@@ -421,7 +421,7 @@
         }
     }
     .team__content {
-        padding: 80px 10px 50px;
+        padding: 60px 10px 20px;
         &-item{
             padding: 0 5px;
             &-left img{
@@ -525,7 +525,7 @@
         }
     }
     .slick-dots {
-        bottom: 5px;
+        bottom: -10px;
     }
 }
 
