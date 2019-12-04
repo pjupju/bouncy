@@ -34,4 +34,11 @@ $(function(){
       dots: true,
       autoplaySpeed: 3000
       });
+    $(".testimonials__content-slider").slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      dots: true,
+      autoplaySpeed: 3000
+      });  
   });

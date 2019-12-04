@@ -212,6 +212,19 @@
             }
         }
     }
+    .testimonials__content{
+        padding: 80px 30px 70px;
+        &-top{
+            padding: 0 50px;
+        }
+        &-slider{
+            padding: 30px 40px 70px;
+            &-item-right p{
+                font-size: 14px;
+                line-height: 20px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 768px) {
     .header {
@@ -443,6 +456,13 @@
             }
         }
     }
+    .testimonials__content-slider-item-right {
+        padding-left: 30px;
+        & p{
+            font-size: 12px;
+            line-height: 18px;
+        }
+    }
 }    
 @media screen and (max-width: 520px) {
     .about {
@@ -526,6 +546,20 @@
     }
     .slick-dots {
         bottom: -10px;
+    }
+    .testimonials__content{
+        padding: 40px 30px 20px;
+    }
+    .testimonials__content-slider-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .testimonials__content-slider-item-right{
+        padding-left: 0;
+    }
+    .testimonials__content-slider{
+        padding: 30px 5px 70px;
     }
 }
 

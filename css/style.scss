@@ -862,4 +862,75 @@ body {
         border-radius: 100px;
     }
 }
-
+.testimonials{
+    background-color: #f3f3f3;
+    &__content{
+        padding: 80px 90px 100px;
+        &-top{
+            text-align: center;
+            padding: 0 200px;
+            &-title{
+                color: #333b46;
+                font-family: 'Source Sans Pro';
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 12px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            &-descr{
+                margin-top: 40px;
+                color: #81868e;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &-slider{
+            background-color: #fff;
+            margin-top: 40px;
+            padding: 60px 100px;
+            &-item{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align: left;
+                &-right{
+                    padding-left: 50px;
+                    & p{
+                        color: #81868e;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        letter-spacing: 0.8px;
+                    }
+                    & h2{
+                        color: #19bd9a;
+                        font-family: "Open Sans";
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        letter-spacing: 0.64px;
+                    }
+                    & span {
+                        color: #464646;
+                        font-family: "Open Sans";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        text-transform: uppercase;
+                        letter-spacing: 0.56px;
+                    }
+                }
+            }
+        }
+        & .slick-dotted.slick-slider ul.slick-dots{
+            bottom: 35px;
+            left: 0;
+        }
+    }        
+}
