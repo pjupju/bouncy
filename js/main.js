@@ -27,11 +27,11 @@ $(function(){
             }
           ]
     });
-    /*$(".team__content-slider").slick({
+    $(".team__content-slider").slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
       dots: true,
       autoplaySpeed: 3000
-      });*/
+      });
   });

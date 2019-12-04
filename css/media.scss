@@ -515,7 +515,7 @@
     .team__content-item{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        margin: 20px 0 30px;
         &-left{
             text-align: center;
             margin-bottom: 10px;
@@ -523,6 +523,9 @@
         &-right-descr{
             margin-bottom: 10px;
         }
+    }
+    .slick-dots {
+        bottom: 5px;
     }
 }
 
@@ -618,5 +621,9 @@
     }
     .services__content-bottom-diag .diag-1-img:after, .services__content-bottom-diag .diag-2-img:after, .services__content-bottom-diag .diag-3-img:after {
         left: 43%;
+    }
+    .team__content-top-descr{
+        font-size: 12px;
+        margin-top: 20px;
     }
 }

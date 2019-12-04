@@ -748,7 +748,7 @@ body {
             justify-content: space-between;
             margin-top: 60px;
             padding: 0 50px;
-            margin-bottom: 60px;
+            margin-bottom: 20px;
             &-left img{
               width: 364px;
               height: auto;
@@ -830,6 +830,8 @@ body {
 .slick-initialized .slick-slide {
     display: flex;
     justify-content: space-between;
+    & img {
+        display: inline-block;
+    }
 }
-
 

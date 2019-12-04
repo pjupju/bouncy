@@ -915,7 +915,7 @@ body {
           justify-content: space-between;
   margin-top: 60px;
   padding: 0 50px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 
 .team__content-item-left img {
@@ -1018,5 +1018,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.slick-initialized .slick-slide img {
+  display: inline-block;
 }
 /*# sourceMappingURL=style.css.map */
