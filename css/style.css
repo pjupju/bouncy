@@ -1244,4 +1244,36 @@ body {
 .news__content-slider.slick-initialized .slick-slide {
   display: block;
 }
+
+/*
+.price{
+    background-color: #f3f3f3;
+    &__content{
+        padding: 80px 90px 100px;
+        &-top{
+            text-align: center;
+            padding: 0 350px;
+            &-title{
+                color: #333b46;
+                font-family: 'Source Sans Pro';
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 12px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            &-descr{
+                margin-top: 40px;
+                color: #81868e;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0.7px;
+            }
+        }
+
+    }
+}
+*/
 /*# sourceMappingURL=style.css.map */
