@@ -348,7 +348,19 @@
     }
     .contact{
         padding: 55px 0;
-    }    
+    }
+    .news__content{
+        padding: 50px;
+        &-slider-item{
+            padding: 50px 0 10px 30px;
+            &-descr{
+                margin-top: 15px;
+            }
+            &-btn{
+                margin-top: 20px;
+            }
+        }
+    }
 }
 @media screen and (max-width: 600px) {
     .about {
@@ -561,6 +573,12 @@
     .testimonials__content-slider{
         padding: 30px 5px 70px;
     }
+    .news{
+        min-height: 0;
+        &__content{
+            padding: 40px 30px;
+        }
+    }
 }
 
 @media screen and (max-width: 470px) {
@@ -646,6 +664,12 @@
                 width: 220px;
                 height: 160px; 
             }
+        }
+    }
+    .news__content{
+        padding: 30px 15px;
+        &-slider-item{
+            padding: 40px 0 20px 10px;
         }
     }
 }    

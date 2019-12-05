@@ -392,6 +392,18 @@
   .contact {
     padding: 55px 0;
   }
+  .news__content {
+    padding: 50px;
+  }
+  .news__content-slider-item {
+    padding: 50px 0 10px 30px;
+  }
+  .news__content-slider-item-descr {
+    margin-top: 15px;
+  }
+  .news__content-slider-item-btn {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -631,6 +643,12 @@
   .testimonials__content-slider {
     padding: 30px 5px 70px;
   }
+  .news {
+    min-height: 0;
+  }
+  .news__content {
+    padding: 40px 30px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -722,6 +740,12 @@
   .portfolio__content-slider-gallery img {
     width: 220px;
     height: 160px;
+  }
+  .news__content {
+    padding: 30px 15px;
+  }
+  .news__content-slider-item {
+    padding: 40px 0 20px 10px;
   }
 }
 

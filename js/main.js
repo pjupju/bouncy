@@ -40,5 +40,16 @@ $(function(){
       autoplay: true,
       dots: true,
       autoplaySpeed: 3000
-      });  
+    });
+    $('.news__content-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 3000,
+        cssEase: 'linear'
+    });
   });
