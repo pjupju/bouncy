@@ -940,6 +940,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 690px;
+    min-width: 100%;
     &__content{
         padding: 80px 100px;
         &-top{
@@ -1058,6 +1059,66 @@ body {
             &-item{
                 margin: 0 5px;
             }    
+        }
+    }
+}
+.subscribe{
+    background: url(../img/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    &__content{
+        padding: 80px 90px 100px;
+        &-top{
+            text-align: center;
+            padding: 0 350px;
+            &-title{
+                color: #fff;
+                font-family: 'Source Sans Pro';
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 12px;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            &-descr{
+                margin-top: 40px;
+                color: #fff;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0.7px;
+            }
+        }
+        &-bottom{
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            & input{
+                width: 360px;
+                color: #0f191b;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 35px;
+                letter-spacing: 0.14px;
+                background-color: transparent;
+                border: 1px solid #fff;
+                padding-left: 20px;
+            }
+            & .submit-btn{
+                margin-left: 10px;
+                color: #fff;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.14px;
+                padding: 15px 50px;
+                background-color: #19bd9a;
+            }
         }
     }
 }

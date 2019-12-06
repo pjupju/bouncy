@@ -190,6 +190,9 @@
   .price__content-top {
     padding: 0 100px;
   }
+  .subscribe__content-top {
+    padding: 0 200px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -272,6 +275,15 @@
   }
   .price__content-cards {
     padding: 30px 15px;
+  }
+  .subscribe__content {
+    padding: 50px;
+  }
+  .subscribe__content-top {
+    padding: 0 140px;
+  }
+  .subscribe__content-bottom {
+    margin-top: 40px;
   }
 }
 
@@ -369,6 +381,9 @@
   .price__content-cards-item img {
     width: 200px;
     height: auto;
+  }
+  .subscribe__content-top {
+    padding: 0 100px;
   }
 }
 
@@ -552,6 +567,15 @@
   .price__content-cards-item img {
     width: 160px;
     height: auto;
+  }
+  .subscribe {
+    min-height: 250px;
+  }
+  .subscribe__content {
+    padding: 50px 20px;
+  }
+  .subscribe__content-top {
+    padding: 0 20px;
   }
 }
 
@@ -800,6 +824,15 @@
   .price__content-cards-item img {
     width: 90px;
     height: auto;
+  }
+  .subscribe__content {
+    padding: 50px 10px;
+  }
+  .subscribe__content-top {
+    padding: 0px;
+  }
+  .subscribe__content-bottom .submit-btn {
+    padding: 15px 30px;
   }
 }
 
