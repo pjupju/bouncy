@@ -187,6 +187,9 @@
   .portfolio__content-slider-gallery {
     margin-top: 30px;
   }
+  .price__content-top {
+    padding: 0 100px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -263,6 +266,12 @@
   .testimonials__content-slider-item-right p {
     font-size: 14px;
     line-height: 20px;
+  }
+  .price__content {
+    padding: 60px 90px 20px;
+  }
+  .price__content-cards {
+    padding: 30px 15px;
   }
 }
 
@@ -357,6 +366,10 @@
   .team__content-item-right-descr {
     margin: 10px 0 10px;
   }
+  .price__content-cards-item img {
+    width: 200px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 675px) {
@@ -403,6 +416,10 @@
   }
   .news__content-slider-item-btn {
     margin-top: 20px;
+  }
+  .price__content-cards-item img {
+    width: 180px;
+    height: auto;
   }
 }
 
@@ -526,6 +543,16 @@
     font-size: 12px;
     line-height: 18px;
   }
+  .price__content {
+    padding: 60px 40px 20px;
+  }
+  .price__content-top {
+    padding: 0 20px;
+  }
+  .price__content-cards-item img {
+    width: 160px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -550,6 +577,9 @@
   .bouncy__content {
     padding: 150px 20px 0;
   }
+  .bouncy__content-left {
+    padding: 0 5px;
+  }
   .bouncy__content-left-title {
     font-size: 17px;
   }
@@ -557,12 +587,18 @@
     font-size: 12px;
     line-height: 18px;
   }
+  .bouncy__content-inner {
+    padding: 0;
+  }
   .details__content {
     padding: 75px 30px 40px;
   }
   .featured__content-top {
     margin: 30px 20px 0;
     padding: 0 50px;
+  }
+  .services__content-bottom-text {
+    padding: 0 10px;
   }
   .services__content-bottom-diag {
     display: -webkit-box;
@@ -649,6 +685,13 @@
   .news__content {
     padding: 40px 30px;
   }
+  .price__content {
+    padding: 50px 5px 20px;
+  }
+  .price__content-cards-item img {
+    width: 135px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -695,6 +738,7 @@
   }
   .details-ideas h2 {
     margin: 50px auto 0;
+    text-align: center;
   }
   .featured__content-top {
     margin: 40px 10px 0;
@@ -741,11 +785,21 @@
     width: 220px;
     height: 160px;
   }
+  .testimonials__content {
+    padding: 40px 10px 20px;
+  }
+  .testimonials__content-top {
+    padding: 0 10px;
+  }
   .news__content {
     padding: 30px 15px;
   }
   .news__content-slider-item {
     padding: 40px 0 20px 10px;
+  }
+  .price__content-cards-item img {
+    width: 90px;
+    height: auto;
   }
 }
 
@@ -754,7 +808,7 @@
     padding-right: 20px;
   }
   .services__content-bottom-diag .diag-1-img:after, .services__content-bottom-diag .diag-2-img:after, .services__content-bottom-diag .diag-3-img:after {
-    left: 43%;
+    left: 42%;
   }
   .team__content-top-descr {
     font-size: 12px;

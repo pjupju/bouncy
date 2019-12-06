@@ -1024,7 +1024,7 @@ body {
         }
     }
 }
-/*
+
 .price{
     background-color: #f3f3f3;
     &__content{
@@ -1051,7 +1051,13 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-
+        &-cards{
+            padding: 60px 20px;
+            display: flex;
+            justify-content: space-around;
+            &-item{
+                margin: 0 5px;
+            }    
+        }
     }
 }
-*/
