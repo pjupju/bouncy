@@ -24,8 +24,20 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
+  .icon-phone1:before {
+    content: "\e902";
+  }
   .icon-arrow-down:before {
     content: "\e900";
+  }
+  .icon-phone:before {
+    content: "\e004";
+  }
+  .icon-map:before {
+    content: "\e025";
+  }
+  .icon-envelope:before {
+    content: "\e028";
   }
   .icon-lightbulb:before {
     content: "\e030";
@@ -42,10 +54,12 @@
   .icon-paintbrush:before {
     content: "\e036";
   }
+  .icon-map-pin:before {
+    content: "\e047";
+  }
   .icon-heart:before {
     content: "\e04a";
   }
   .icon-mouse:before {
     content: "\e901";
   }
-  

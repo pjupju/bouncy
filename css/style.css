@@ -1350,6 +1350,7 @@ body {
   background-color: transparent;
   border: 1px solid #fff;
   padding-left: 20px;
+  border-radius: 100px;
 }
 
 .subscribe__content-bottom .submit-btn {
@@ -1362,5 +1363,122 @@ body {
   letter-spacing: 0.14px;
   padding: 15px 50px;
   background-color: #19bd9a;
+  border-radius: 100px;
+}
+
+.contact-us {
+  background-color: #f3f3f3;
+}
+
+.contact-us__content {
+  padding: 80px 90px 100px;
+}
+
+.contact-us__content-top {
+  text-align: center;
+  padding: 0 350px;
+}
+
+.contact-us__content-top-title {
+  color: #333b46;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 12px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.contact-us__content-top-descr {
+  margin-top: 40px;
+  color: #81868e;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+
+.contact-us__content-cards {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.contact-us__content-cards .item1, .contact-us__content-cards .item2, .contact-us__content-cards .item3 {
+  position: relative;
+}
+
+.contact-us__content-cards .item1:after {
+  content: "\e902";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40x;
+}
+
+.contact-us__content-cards .item2:after {
+  content: "\e028";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40x;
+}
+
+.contact-us__content-cards .item3:after {
+  content: "\e047";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 40x;
+}
+
+.contact-us__content-cards-info {
+  width: 287px;
+  height: 150px;
+  -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 25px;
+  margin-top: -5px;
+}
+
+.contact-us__content-cards-info h2 {
+  color: #464646;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.64px;
+}
+
+.contact-us__content-cards-info span {
+  color: #81868e;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
 }
 /*# sourceMappingURL=style.css.map */

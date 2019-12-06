@@ -193,6 +193,12 @@
   .subscribe__content-top {
     padding: 0 200px;
   }
+  .contact-us__content-top {
+    padding: 0 200px;
+  }
+  .contact-us__content {
+    padding: 80px 10px 80px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -284,6 +290,14 @@
   }
   .subscribe__content-bottom {
     margin-top: 40px;
+  }
+  .contact-us__content-cards-item img {
+    width: 230px;
+    height: auto;
+  }
+  .contact-us__content-cards-info {
+    width: 230px;
+    padding: 25px 5px;
   }
 }
 
@@ -385,6 +399,28 @@
   .subscribe__content-top {
     padding: 0 100px;
   }
+  .contact-us__content-top {
+    padding: 0 100px;
+  }
+  .contact-us__content-cards .item1:after, .contact-us__content-cards .item2:after {
+    top: 30%;
+    left: 39%;
+  }
+  .contact-us__content-cards .item3:after {
+    top: 30%;
+    left: 43%;
+  }
+  .contact-us__content-cards-item img {
+    width: 200px;
+    height: auto;
+  }
+  .contact-us__content-cards-info {
+    width: 200px;
+    padding: 20px 5px;
+  }
+  .contact-us__content-cards-info span {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 675px) {
@@ -435,6 +471,20 @@
   .price__content-cards-item img {
     width: 180px;
     height: auto;
+  }
+  .contact-us__content-cards .item1:after, .contact-us__content-cards .item2:after, .contact-us__content-cards .item3:after {
+    font-size: 30px;
+  }
+  .contact-us__content-cards-item img {
+    width: 180px;
+    height: auto;
+  }
+  .contact-us__content-cards-info {
+    width: 180px;
+    padding: 20px 5px;
+  }
+  .contact-us__content-cards-info span {
+    font-size: 11px;
   }
 }
 
@@ -576,6 +626,41 @@
   }
   .subscribe__content-top {
     padding: 0 20px;
+  }
+  .contact-us__content-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-us__content-cards .item1:after, .contact-us__content-cards .item2:after, .contact-us__content-cards .item3:after {
+    font-size: 35px;
+    left: 43%;
+  }
+  .contact-us__content-cards {
+    font-size: 35px;
+    left: 43%;
+  }
+  .contact-us__content-cards .item3:after {
+    font-size: 37px;
+    left: 44%;
+  }
+  .contact-us__content-cards-item {
+    margin-top: 10px;
+  }
+  .contact-us__content-cards-item img {
+    width: 280px;
+    height: auto;
+  }
+  .contact-us__content-cards-info {
+    width: 280px;
+    padding: 20px;
+  }
+  .contact-us__content-cards-info span {
+    font-size: 14px;
   }
 }
 
@@ -833,6 +918,24 @@
   }
   .subscribe__content-bottom .submit-btn {
     padding: 15px 30px;
+  }
+  .contact-us__content {
+    padding: 40px 10px;
+  }
+  .contact-us__content-top {
+    padding: 0 10px;
+  }
+  .contact-us__content-cards {
+    margin-top: 10px;
+  }
+  .contact-us__content-cards-info {
+    padding: 5px;
+  }
+  .contact-us__content-cards-info h2 {
+    line-height: 16px;
+  }
+  .contact-us__content-cards-info span {
+    font-size: 12px;
   }
 }
 
