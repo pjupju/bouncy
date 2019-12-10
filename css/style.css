@@ -1481,4 +1481,70 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.7px;
 }
+
+.form {
+  background-color: #fff;
+}
+
+.form__content {
+  padding: 80px 150px 50px;
+}
+
+.form__content-top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form__content-top input {
+  width: 97%;
+  color: #a9a9a9;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.14px;
+  background-color: transparent;
+  border: 1px solid #d8dce0;
+  padding: 15px 170px 15px 20px;
+}
+
+.form__content-middle {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form__content-middle textarea {
+  width: 99%;
+  min-height: 190px;
+  overflow: auto;
+  resize: none;
+  background-color: transparent;
+  border: 1px solid #d8dce0;
+}
+
+.form__content-bottom {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form__content-bottom .submit-btn {
+  width: 100%;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+  padding: 15px 50px;
+  background-color: #19bd9a;
+}
 /*# sourceMappingURL=style.css.map */

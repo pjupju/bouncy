@@ -199,6 +199,9 @@
   .contact-us__content {
     padding: 80px 10px 80px;
   }
+  .form__content {
+    padding: 80px 50px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -298,6 +301,9 @@
   .contact-us__content-cards-info {
     width: 230px;
     padding: 25px 5px;
+  }
+  .form__content-top input {
+    padding: 15px 100px 15px 20px;
   }
 }
 
@@ -420,6 +426,9 @@
   }
   .contact-us__content-cards-info span {
     font-size: 12px;
+  }
+  .form__content-top input {
+    padding: 15px 45px 15px 20px;
   }
 }
 
@@ -661,6 +670,16 @@
   }
   .contact-us__content-cards-info span {
     font-size: 14px;
+  }
+  .form__content {
+    padding: 60px 20px;
+  }
+  .form__content-top {
+    display: inline-block;
+  }
+  .form__content-top input {
+    margin-bottom: 5px;
+    width: 99%;
   }
 }
 

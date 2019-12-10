@@ -1221,3 +1221,53 @@ body {
         }
     }
 }
+.form{
+    background-color: #fff;
+    &__content{
+        padding: 80px 150px 50px;
+        &-top{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            & input{
+                width: 97%;
+                color: #a9a9a9;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                letter-spacing: 0.14px;
+                background-color: transparent;
+                border: 1px solid #d8dce0;
+                padding: 15px 170px 15px 20px;
+            }
+        }
+        &-middle{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            & textarea{
+                width: 99%;
+                min-height: 190px;
+                overflow: auto;
+                resize: none;
+                background-color: transparent;
+                border: 1px solid #d8dce0;
+            }
+        }
+        &-bottom{
+            margin-top: 30px;
+            text-align: center;
+            & .submit-btn{
+                width: 100%;
+                color: #fff;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.14px;
+                padding: 15px 50px;
+                background-color: #19bd9a;
+            }
+        }
+    }
+}
