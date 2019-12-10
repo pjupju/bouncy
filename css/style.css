@@ -1547,4 +1547,54 @@ body {
   padding: 15px 50px;
   background-color: #19bd9a;
 }
+
+.map__img {
+  position: relative;
+}
+
+.map__img img {
+  width: 100%;
+}
+
+.map__img-title {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  vertical-align: center;
+}
+
+.map__img-title span {
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.map__img-title a {
+  width: 36px;
+  height: 36px;
+  background-color: #19bd9a;
+  border-radius: 18px;
+  position: relative;
+}
+
+.map__img-title a:before {
+  content: "\e900";
+  font-family: 'icomoon';
+  position: absolute;
+  top: 33%;
+  left: 31%;
+  width: 7px;
+  height: 3px;
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */

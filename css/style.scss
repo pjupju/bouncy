@@ -1271,3 +1271,43 @@ body {
         }
     }
 }
+.map__img{
+    position: relative;
+    & img {
+        width: 100%;
+    }
+    &-title{
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        display: flex;
+        justify-content: center;
+        vertical-align: center;
+        & span{
+            color: #fff;
+            font-family: "Open Sans";
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 25px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+        }
+        & a{
+            width: 36px;
+            height: 36px;
+            background-color: #19bd9a;
+            border-radius: 18px;
+            position: relative;
+            &:before{
+                content: "\e900";
+                font-family: 'icomoon';
+                position: absolute;
+                top: 33%;
+                left: 31%;
+                width: 7px;
+                height: 3px;
+                color: #fff;
+            }
+        }
+    }
+}
