@@ -4,28 +4,33 @@ font-family: 'Source Sans Pro', sans-serif;*/
 
 * {
     box-sizing: border-box;
-  }
-  
+}
+
 a {
     text-decoration: none;
     display: inline-block;
     background-color: transparent;
-  }
-ul, li {
+}
+
+ul,
+li {
     list-style: none;
     margin: 0 auto;
-    padding: 0; 
-  }
+    padding: 0;
+}
+
 body {
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 400;
-}  
+}
+
 .container {
     max-width: 1366px;
     margin: 0 auto;
     padding: 0 15px;
-  }
+}
+
 .header {
     background: url(../img/header-background.jpg);
     background-repeat: no-repeat;
@@ -47,13 +52,13 @@ body {
             display: inline-block;
             margin-left: 20px;
         }
-        &-menu a{
+        &-menu a {
             color: #ffffff;
             font-size: 16px;
             padding: 8px 20px;
             margin-top: 5px;
             border: 1px solid transparent;
-            &:hover{
+            &:hover {
                 background-color: rgba(255, 255, 255, 0.507);
                 border-radius: 100px;
                 transition: all 0.5s;
@@ -61,7 +66,7 @@ body {
             }
         }
     }
-    & #menu-checkbox{
+    & #menu-checkbox {
         display: none;
     }
 }
@@ -84,20 +89,20 @@ body {
             letter-spacing: 7px;
             margin-bottom: 30px;
         }
-        &-descr{
+        &-descr {
             font-family: 'Open Sans';
             font-size: 16px;
             line-height: 28px;
             letter-spacing: 0.8px;
         }
-        &-btn a{
+        &-btn a {
             width: 36px;
             height: 36px;
             background-color: #19bd9a;
             border-radius: 100px;
             position: relative;
             margin-top: 150px;
-            &:before{
+            &:before {
                 content: "\e900";
                 font-family: 'icomoon';
                 position: absolute;
@@ -120,7 +125,7 @@ body {
     }
     &-left {
         max-width: 466px;
-        &-title{
+        &-title {
             padding-top: 35px;
             color: #333b46;
             font-family: 'Source Sans Pro';
@@ -131,7 +136,7 @@ body {
             letter-spacing: 4px;
             padding-bottom: 50px;
         }
-        &-descr{
+        &-descr {
             color: #81868e;
             line-height: 25px;
             letter-spacing: 0.7px;
@@ -139,7 +144,8 @@ body {
         }
     }
 }
-.default-btn a{
+
+.default-btn a {
     color: #333b46;
     font-size: 16px;
     line-height: 16px;
@@ -148,14 +154,14 @@ body {
     border-radius: 100px;
 }
 
-.details{
+.details {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 75px 215px 100px;
         &-top {
             text-align: center;
             padding: 0 220px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -164,7 +170,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -172,25 +178,28 @@ body {
                 font-weight: 400;
                 line-height: 25px;
                 letter-spacing: 0.7px;
-                }
+            }
             &-btn {
                 display: flex;
                 justify-content: center;
                 margin-top: 60px;
-                & .icon1, .icon2, .icon3{
+                & .icon1,
+                .icon2,
+                .icon3 {
                     width: 53px;
                     height: 53px;
                     background-color: #81868e;
                     border-radius: 53px;
                     position: relative;
-                    &:hover{
+                    &:hover {
                         background-color: #19bd9a;
                     }
                 }
-                & .icon2, .icon3 {
+                & .icon2,
+                .icon3 {
                     margin-left: 30px;
                 }
-                & .icon1:before{
+                & .icon1:before {
                     content: "\e04a";
                     font-family: 'icomoon';
                     position: absolute;
@@ -201,7 +210,7 @@ body {
                     font-weight: 300;
                     line-height: 35px;
                 }
-                & .icon2:before{
+                & .icon2:before {
                     content: "\e901";
                     font-family: 'icomoon';
                     position: absolute;
@@ -212,7 +221,7 @@ body {
                     font-weight: 300;
                     line-height: 40px;
                 }
-                & .icon3:before{
+                & .icon3:before {
                     content: "\e030";
                     font-family: 'icomoon';
                     position: absolute;
@@ -223,55 +232,55 @@ body {
                     font-weight: 400;
                     line-height: 40x;
                 }
-            }   
+            }
         }
         &-bottom {
             display: flex;
             justify-content: space-evenly;
             margin-top: 40px;
-            &-left{
+            &-left {
                 width: 35%;
-                &-descr{
+                &-descr {
                     color: #81868e;
                     font-family: 'Open Sans';
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 28px;
                 }
-                & a{
+                & a {
                     font-weight: 700;
                     letter-spacing: 0.8px;
                     color: #19bd9a;
                 }
-                & .bold{
+                & .bold {
                     font-weight: 700;
                     letter-spacing: 0.8px;
                     color: #636971;
                 }
             }
-            &-right{
+            &-right {
                 width: 53%;
-                &-descr{
+                &-descr {
                     color: #81868e;
                     font-family: "Open Sans";
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 25px;
                 }
-                & a{
+                & a {
                     font-weight: 700;
                     letter-spacing: 0.7px;
                     color: #19bd9a;
                 }
-                & .bold{
+                & .bold {
                     color: #636971;
                     font-weight: 700;
                     letter-spacing: 0.7px;
                 }
-            }   
+            }
         }
     }
-    &-ideas h2{
+    &-ideas h2 {
         margin: 75px 0 0 35px;
         color: #464646;
         font-family: 'Open Sans';
@@ -280,15 +289,16 @@ body {
         letter-spacing: 0.8px;
     }
 }
+
 .featured {
-    & .container{
+    & .container {
         padding: 0;
     }
     &__content-top {
         margin: 75px 125px 0;
         text-align: center;
         padding: 0 220px;
-        &-title{
+        &-title {
             color: #333b46;
             font-family: 'Source Sans Pro';
             font-size: 20px;
@@ -297,7 +307,7 @@ body {
             text-transform: uppercase;
             letter-spacing: 4px;
         }
-        &-descr{
+        &-descr {
             padding: 0 20px;
             margin-top: 40px;
             color: #81868e;
@@ -308,26 +318,26 @@ body {
             letter-spacing: 0.7px;
         }
     }
-    &__content-middle{
+    &__content-middle {
         display: block;
         font-size: 0;
         margin-top: 60px;
         display: flex;
         justify-content: flex-start;
         width: 100%;
-        &-img1 img{
+        &-img1 img {
             width: 100%;
             height: auto;
             position: relative;
         }
-        &-img2 img{
-            width: 100%;
-            height: auto; 
-        }
-        &-img3 img{
+        &-img2 img {
             width: 100%;
             height: auto;
-        }    
+        }
+        &-img3 img {
+            width: 100%;
+            height: auto;
+        }
     }
     &__content-bottom {
         background: url(../img/featured-background.png);
@@ -335,33 +345,34 @@ body {
         background-size: cover;
         background-position: center;
         padding: 0 15px;
-        &-inner{
+        &-inner {
             display: flex;
             justify-content: space-around;
             align-items: center;
             padding: 45px 0;
-            &-descr{
+            &-descr {
                 color: #ffffff;
                 font-family: 'Open Sans';
                 font-size: 20px;
                 font-weight: 400;
                 line-height: 25px;
             }
-            & .default-btn a{
+            & .default-btn a {
                 border: 1px solid #fff;
                 color: #fff;
             }
         }
     }
 }
+
 .services {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 75px 150px 80px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 25px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -370,7 +381,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -380,7 +391,7 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-bottom{
+        &-bottom {
             margin-top: 40px;
             display: flex;
             justify-content: space-around;
@@ -388,20 +399,25 @@ body {
                 width: 7%;
                 display: flex;
                 flex-direction: column;
-                & .icon1-btn, .icon2-btn, .icon3-btn, .icon4-btn{
+                & .icon1-btn,
+                .icon2-btn,
+                .icon3-btn,
+                .icon4-btn {
                     width: 53px;
                     height: 53px;
                     background-color: #81868e;
                     border-radius: 53px;
                     position: relative;
-                    &:hover{
+                    &:hover {
                         background-color: #19bd9a;
                     }
                 }
-                & .icon2-btn, .icon3-btn, .icon4-btn {
+                & .icon2-btn,
+                .icon3-btn,
+                .icon4-btn {
                     margin-top: 15px;
                 }
-                & .icon1-btn:before{
+                & .icon1-btn:before {
                     content: "\e033";
                     font-family: 'icomoon';
                     position: absolute;
@@ -412,7 +428,7 @@ body {
                     font-weight: 300;
                     line-height: 40px;
                 }
-                & .icon2-btn:before{
+                & .icon2-btn:before {
                     content: "\e034";
                     font-family: 'icomoon';
                     position: absolute;
@@ -423,7 +439,7 @@ body {
                     font-weight: 300;
                     line-height: 40px;
                 }
-                & .icon3-btn:before{
+                & .icon3-btn:before {
                     content: "\e035";
                     font-family: 'icomoon';
                     position: absolute;
@@ -434,7 +450,7 @@ body {
                     font-weight: 400;
                     line-height: 40x;
                 }
-                & .icon4-btn:before{
+                & .icon4-btn:before {
                     content: "\e036";
                     font-family: 'icomoon';
                     position: absolute;
@@ -446,9 +462,9 @@ body {
                     line-height: 40x;
                 }
             }
-            &-text{
+            &-text {
                 width: 40%;
-                &-title{
+                &-title {
                     margin-top: 25px;
                     color: #464646;
                     font-family: 'Open Sans';
@@ -456,51 +472,52 @@ body {
                     font-weight: 400;
                     line-height: 25px;
                     letter-spacing: 0.8px;
-                }  
-                &-descr{
+                }
+                &-descr {
                     margin-top: 25px;
                     color: #81868e;
                     font-family: "Open Sans";
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 25px;
-                    & a{
-                    font-weight: 700;
-                    letter-spacing: 0.7px;
-                    color: #19bd9a;
+                    & a {
+                        font-weight: 700;
+                        letter-spacing: 0.7px;
+                        color: #19bd9a;
                     }
-                    & .bold{
-                    color: #636971;
-                    font-weight: 700;
-                    letter-spacing: 0.7px;
-                    }   
+                    & .bold {
+                        color: #636971;
+                        font-weight: 700;
+                        letter-spacing: 0.7px;
+                    }
                 }
-                &-info{
+                &-info {
                     margin-top: 30px;
                     color: #81868e;
                     font-family: "Open Sans";
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 25px;
-                    & a{
+                    & a {
                         font-weight: 700;
                         letter-spacing: 0.7px;
                         color: #19bd9a;
                     }
-                }  
+                }
             }
-            &-diag{
+            &-diag {
                 margin-top: 35px;
                 width: 40%;
                 display: flex;
                 justify-content: space-between;
                 text-align: center;
-                & .diag-2, .diag-3 {
+                & .diag-2,
+                .diag-3 {
                     margin-left: 30px;
                 }
-                & .diag-1-img{
+                & .diag-1-img {
                     position: relative;
-                    &:after{
+                    &:after {
                         content: "80%";
                         position: absolute;
                         top: 40%;
@@ -512,9 +529,9 @@ body {
                         line-height: 25px;
                     }
                 }
-                & .diag-2-img{
+                & .diag-2-img {
                     position: relative;
-                    &:after{
+                    &:after {
                         content: "75%";
                         position: absolute;
                         top: 40%;
@@ -526,9 +543,9 @@ body {
                         line-height: 25px;
                     }
                 }
-                & .diag-3-img{
+                & .diag-3-img {
                     position: relative;
-                    &:after{
+                    &:after {
                         content: "60%";
                         position: absolute;
                         top: 40%;
@@ -540,7 +557,9 @@ body {
                         line-height: 25px;
                     }
                 }
-                & .diag-1-title, .diag-2-title, .diag-3-title {
+                & .diag-1-title,
+                .diag-2-title,
+                .diag-3-title {
                     margin-top: 25px;
                     color: #81868e;
                     font-family: 'Roboto';
@@ -549,32 +568,33 @@ body {
                     line-height: 25px;
                     letter-spacing: 0.8px;
                 }
-            }     
-        }    
+            }
+        }
     }
 }
+
 .impressed {
     background: url(../img/impressed.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-height: 400px;
-    &__content{
+    &__content {
         display: flex;
         justify-content: space-between;
         padding: 80px 100px 80px;
         &-left {
             width: 60%;
-            &-title{
+            &-title {
                 color: #f3f3f3;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
                 font-weight: 300;
                 line-height: 12px;
                 text-transform: uppercase;
-                letter-spacing: 4px; 
+                letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 50px;
                 color: #b2b3b3;
                 font-family: 'Open Sans';
@@ -583,7 +603,7 @@ body {
                 line-height: 28px;
                 letter-spacing: 0.8px;
             }
-            &-name{
+            &-name {
                 margin-top: 30px;
                 text-transform: uppercase;
                 line-height: 25px;
@@ -591,18 +611,18 @@ body {
                 color: #b2b3b3;
                 font-family: 'Open Sans';
                 font-size: 14px;
-                & h2{
+                & h2 {
                     font-weight: 700;
                 }
-                & span{
+                & span {
                     font-weight: 300;
-                    & a{
+                    & a {
                         color: #19bd9a;
                     }
-                }    
+                }
             }
         }
-        &-right{
+        &-right {
             margin-left: 15px;
             margin-top: -105px;
         }
@@ -611,12 +631,12 @@ body {
 
 .portfolio {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 80px 50px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 25px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -625,7 +645,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -635,12 +655,12 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-btn ul{
+        &-btn ul {
             display: flex;
             justify-content: center;
             margin-top: 50px;
             padding: 0 100px;
-            & li a{
+            & li a {
                 color: #464646;
                 font-family: 'Open Sans';
                 font-size: 16px;
@@ -648,7 +668,7 @@ body {
                 line-height: 12px;
                 border-bottom: 2px solid transparent;
                 padding: 15px 30px;
-                &:hover{
+                &:hover {
                     background-color: rgba(255, 255, 255, 0.335);
                     border-radius: 100px;
                     transition: all 0.5s;
@@ -656,17 +676,17 @@ body {
                 }
             }
         }
-        &-slider-gallery{
+        &-slider-gallery {
             margin-top: 50px;
             padding: 0 20px;
-            & img{
+            & img {
                 margin: 5px;
                 width: 330px;
-                height: 300px; 
+                height: 300px;
                 object-fit: cover;
             }
         }
-        &-bottom{
+        &-bottom {
             background: url(../img/portfolio_fon.png);
             background-repeat: no-repeat;
             background-size: cover;
@@ -674,19 +694,19 @@ body {
             padding: 55px 175px;
             text-align: center;
             margin-top: 70px;
-            & h2{
+            & h2 {
                 color: #ffffff;
                 font-family: "Open Sans";
                 font-size: 18px;
                 font-weight: 400;
                 line-height: 25px;
-                & span{
+                & span {
                     font-family: "Open Sans";
                     font-weight: 700;
-                    letter-spacing: 0.8px; 
+                    letter-spacing: 0.8px;
                 }
             }
-            .default-btn a{
+            .default-btn a {
                 color: #fff;
                 font-size: 14px;
                 line-height: 12px;
@@ -711,17 +731,20 @@ body {
         opacity: 1;
     }
 }
-.slick-prev:before, .slick-prev:after, .slick-next:before {
+
+.slick-prev:before,
+.slick-prev:after,
+.slick-next:before {
     content: '';
 }
 
 .team {
-    &__content{
+    &__content {
         padding: 80px 50px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 25px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -730,7 +753,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -743,23 +766,23 @@ body {
         &-slider {
             width: 100%;
         }
-        &-item{
+        &-item {
             display: flex;
             justify-content: space-between;
             margin-top: 60px;
             padding: 0 50px;
             margin-bottom: 20px;
-            &-left img{
-              width: 364px;
-              height: auto;
+            &-left img {
+                width: 364px;
+                height: auto;
             }
-            &-right{
+            &-right {
                 text-align: center;
                 width: 100%;
                 padding: 30px 50px 0;
-                &-title{
+                &-title {
                     margin-top: 10px;
-                    & h2{
+                    & h2 {
                         color: #464646;
                         font-family: "Open Sans";
                         font-size: 20px;
@@ -767,7 +790,7 @@ body {
                         line-height: 25px;
                         letter-spacing: 0.8px;
                     }
-                    & span{
+                    & span {
                         margin-top: 15px;
                         color: #81868e;
                         font-family: "Source Sans Pro";
@@ -779,7 +802,7 @@ body {
                         letter-spacing: 1.4px;
                     }
                 }
-                &-descr{
+                &-descr {
                     margin: 30px 0 50px;
                     color: #81868e;
                     font-family: "Open Sans";
@@ -788,9 +811,9 @@ body {
                     line-height: 25px;
                     letter-spacing: 0.7px;
                 }
-                &-diagramm{
+                &-diagramm {
                     margin: 2% 5% 0 5%;
-                    & .proc{
+                    & .proc {
                         display: flex;
                         justify-content: space-between;
                         color: #81868e;
@@ -801,21 +824,21 @@ body {
                         text-transform: uppercase;
                         letter-spacing: 1.6px;
                     }
-                    & .gradient{
+                    & .gradient {
                         max-width: 545px;
                         padding: 1rem;
                         position: relative;
                         background: linear-gradient(to right, #19bd9a 80%, rgb(177, 175, 175) 20%);
                         padding: 3px;
                     }
-                    & .gradient-1{
+                    & .gradient-1 {
                         max-width: 545px;
                         padding: 1rem;
                         position: relative;
                         background: linear-gradient(to right, #19bd9a 65%, rgb(177, 175, 175) 35%);
                         padding: 3px;
                     }
-                    & .gradient-2{
+                    & .gradient-2 {
                         max-width: 545px;
                         padding: 1rem;
                         position: relative;
@@ -827,6 +850,7 @@ body {
         }
     }
 }
+
 .slick-initialized .slick-slide {
     display: flex;
     justify-content: space-between;
@@ -835,7 +859,7 @@ body {
     }
 }
 
-.contact{
+.contact {
     background: url(../img/contact-fon.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -844,7 +868,7 @@ body {
     width: 100%;
     padding: 55px 175px;
     text-align: center;
-    & h2{
+    & h2 {
         color: #ffffff;
         font-family: "Open Sans";
         font-size: 20px;
@@ -852,7 +876,7 @@ body {
         line-height: 25px;
         letter-spacing: 0.8px;
     }
-    .default-btn a{
+    .default-btn a {
         color: #fff;
         font-size: 16px;
         font-weight: 400;
@@ -862,14 +886,15 @@ body {
         border-radius: 100px;
     }
 }
-.testimonials{
+
+.testimonials {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 80px 90px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 200px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -878,7 +903,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -888,18 +913,18 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-slider{
+        &-slider {
             background-color: #fff;
             margin-top: 40px;
             padding: 60px 100px;
-            &-item{
+            &-item {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 text-align: left;
-                &-right{
+                &-right {
                     padding-left: 50px;
-                    & p{
+                    & p {
                         color: #81868e;
                         font-family: "Open Sans";
                         font-size: 16px;
@@ -907,7 +932,7 @@ body {
                         line-height: 28px;
                         letter-spacing: 0.8px;
                     }
-                    & h2{
+                    & h2 {
                         color: #19bd9a;
                         font-family: "Open Sans";
                         font-size: 16px;
@@ -928,24 +953,25 @@ body {
                 }
             }
         }
-        & .slick-dotted.slick-slider ul.slick-dots{
+        & .slick-dotted.slick-slider ul.slick-dots {
             bottom: 35px;
             left: 0;
         }
-    }        
+    }
 }
-.news{
+
+.news {
     background: url(../img/news-logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 690px;
     min-width: 100%;
-    &__content{
+    &__content {
         padding: 80px 100px;
-        &-top{
+        &-top {
             max-width: 450px;
-            &-title{
+            &-title {
                 color: #ffffff;
                 font-family: "Source Sans Pro";
                 font-size: 20px;
@@ -954,7 +980,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #b2b3b3;
                 font-family: "Open Sans";
@@ -964,10 +990,10 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-slider{
-            &-item{
+        &-slider {
+            &-item {
                 padding: 50px 0 30px 70px;
-                &-title{
+                &-title {
                     color: #e1e4e9;
                     font-family: "Open Sans";
                     font-size: 20px;
@@ -975,7 +1001,7 @@ body {
                     line-height: 30px;
                     letter-spacing: 0.8px;
                 }
-                &-name{
+                &-name {
                     margin-top: 10px;
                     color: #81868e;
                     font-family: "Source Sans Pro";
@@ -984,12 +1010,11 @@ body {
                     font-style: italic;
                     line-height: 25px;
                     text-transform: uppercase;
-                    & a{
+                    & a {
                         color: #19bd9a;
-
                     }
                 }
-                &-stat{
+                &-stat {
                     margin-top: 20px;
                     color: #464646;
                     font-family: "Source Sans Pro";
@@ -998,7 +1023,7 @@ body {
                     line-height: 25px;
                     letter-spacing: 1.4px;
                 }
-                &-descr{
+                &-descr {
                     margin-top: 60px;
                     color: #81868e;
                     font-family: "Open Sans";
@@ -1007,33 +1032,33 @@ body {
                     line-height: 25px;
                     letter-spacing: 0.7px;
                 }
-                &-btn{
+                &-btn {
                     margin-top: 50px;
                     color: #b2b3b3;
                     font-family: "Open Sans";
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 12px;
-                    & a{
+                    & a {
                         color: #19bd9a;
                     }
                 }
             }
-            &.slick-initialized .slick-slide{
+            &.slick-initialized .slick-slide {
                 display: block;
             }
         }
     }
 }
 
-.price{
+.price {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 80px 90px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 350px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -1042,7 +1067,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -1052,28 +1077,29 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-cards{
+        &-cards {
             padding: 60px 20px;
             display: flex;
             justify-content: space-around;
-            &-item{
+            &-item {
                 margin: 0 5px;
-            }    
+            }
         }
     }
 }
-.subscribe{
+
+.subscribe {
     background: url(../img/subscribe.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 350px;
-    &__content{
+    &__content {
         padding: 80px 90px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 350px;
-            &-title{
+            &-title {
                 color: #fff;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -1082,7 +1108,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #fff;
                 font-family: 'Open Sans';
@@ -1092,11 +1118,11 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-bottom{
+        &-bottom {
             display: flex;
             justify-content: center;
             margin-top: 60px;
-            & input{
+            & input {
                 width: 360px;
                 color: #0f191b;
                 font-family: "Open Sans";
@@ -1109,7 +1135,7 @@ body {
                 padding-left: 20px;
                 border-radius: 100px;
             }
-            & .submit-btn{
+            & .submit-btn {
                 margin-left: 10px;
                 color: #fff;
                 font-family: "Open Sans";
@@ -1124,14 +1150,15 @@ body {
         }
     }
 }
-.contact-us{
+
+.contact-us {
     background-color: #f3f3f3;
-    &__content{
+    &__content {
         padding: 80px 90px 100px;
-        &-top{
+        &-top {
             text-align: center;
             padding: 0 350px;
-            &-title{
+            &-title {
                 color: #333b46;
                 font-family: 'Source Sans Pro';
                 font-size: 20px;
@@ -1140,7 +1167,7 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 4px;
             }
-            &-descr{
+            &-descr {
                 margin-top: 40px;
                 color: #81868e;
                 font-family: 'Open Sans';
@@ -1150,16 +1177,18 @@ body {
                 letter-spacing: 0.7px;
             }
         }
-        &-cards{
+        &-cards {
             margin-top: 30px;
             display: flex;
             justify-content: space-around;
             align-items: center;
             text-align: center;
-            & .item1, .item2, .item3{
+            & .item1,
+            .item2,
+            .item3 {
                 position: relative;
-            }   
-            & .item1:after{
+            }
+            & .item1:after {
                 content: "\e902";
                 font-family: 'icomoon';
                 position: absolute;
@@ -1170,7 +1199,7 @@ body {
                 font-weight: 400;
                 line-height: 40x;
             }
-            & .item2:after{
+            & .item2:after {
                 content: "\e028";
                 font-family: 'icomoon';
                 position: absolute;
@@ -1181,7 +1210,7 @@ body {
                 font-weight: 400;
                 line-height: 40x;
             }
-            & .item3:after{
+            & .item3:after {
                 content: "\e047";
                 font-family: 'icomoon';
                 position: absolute;
@@ -1192,14 +1221,14 @@ body {
                 font-weight: 400;
                 line-height: 40x;
             }
-            &-info{
+            &-info {
                 width: 287px;
                 height: 150px;
                 box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.05);
                 background-color: #fff;
                 padding: 25px;
                 margin-top: -5px;
-                & h2{
+                & h2 {
                     color: #464646;
                     font-family: "Open Sans";
                     font-size: 16px;
@@ -1208,7 +1237,7 @@ body {
                     text-transform: uppercase;
                     letter-spacing: 0.64px;
                 }
-                & span{
+                & span {
                     color: #81868e;
                     font-family: "Open Sans";
                     font-size: 14px;
@@ -1221,15 +1250,16 @@ body {
         }
     }
 }
-.form{
+
+.form {
     background-color: #fff;
-    &__content{
+    &__content {
         padding: 80px 150px 50px;
-        &-top{
+        &-top {
             width: 100%;
             display: flex;
             justify-content: space-evenly;
-            & input{
+            & input {
                 width: 97%;
                 color: #a9a9a9;
                 font-family: "Open Sans";
@@ -1241,11 +1271,11 @@ body {
                 padding: 15px 170px 15px 20px;
             }
         }
-        &-middle{
+        &-middle {
             margin-top: 30px;
             display: flex;
             justify-content: center;
-            & textarea{
+            & textarea {
                 width: 99%;
                 min-height: 190px;
                 overflow: auto;
@@ -1254,10 +1284,10 @@ body {
                 border: 1px solid #d8dce0;
             }
         }
-        &-bottom{
+        &-bottom {
             margin-top: 30px;
             text-align: center;
-            & .submit-btn{
+            & .submit-btn {
                 width: 100%;
                 color: #fff;
                 font-family: "Open Sans";
@@ -1271,42 +1301,75 @@ body {
         }
     }
 }
-.map__img{
+
+.map__img {
     position: relative;
+    width: 100%;
     & img {
         width: 100%;
     }
-    &-title{
+    &-title {
         position: absolute;
-        top: 55%;
-        left: 40%;
+        top: 45%;
+        left: 35%;
         display: flex;
         justify-content: center;
         vertical-align: center;
-        & span{
+        & span {
             color: #fff;
             font-family: "Open Sans";
             font-size: 24px;
+            line-height: 36px;
             font-weight: 400;
-            line-height: 25px;
             text-transform: uppercase;
             letter-spacing: 0.8px;
         }
-        & a{
+        & a {
+            margin-left: 20px;
             width: 36px;
             height: 36px;
             background-color: #19bd9a;
             border-radius: 18px;
             position: relative;
-            &:before{
+            &:before {
                 content: "\e900";
                 font-family: 'icomoon';
                 position: absolute;
                 top: 33%;
                 left: 31%;
-                width: 7px;
+                width: 4px;
                 height: 3px;
                 color: #fff;
+            }
+        }
+    }
+}
+
+.footer {
+    background-color: #f3f3f3;
+    &__content {
+        padding: 80px 500px;
+        text-align: center;
+        &-title {
+            color: #323a45;
+            font-size: 25px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        &-descr {
+            margin-top: 25px;
+            color: #81868e;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 900;
+            line-height: 25px;
+            letter-spacing: 0.7px;
+        }
+        &-icons {
+            margin-top: 35px;
+            & img {
+                margin: 0 10px;
             }
         }
     }
