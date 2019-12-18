@@ -207,6 +207,11 @@
   .footer__content {
     padding: 80px 100px;
   }
+  .details__content-top-btn .icon1:active,
+  .details__content-top-btn .icon2:active,
+  .details__content-top-btn .icon3:active {
+    background-color: #19bd9a;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -846,6 +851,16 @@
     width: 135px;
     height: auto;
   }
+  .footer__content {
+    padding: 50px;
+  }
+  .map__img-title {
+    left: 21%;
+    top: 40%;
+  }
+  .map__img-title span {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -984,6 +999,23 @@
   }
   .contact-us__content-cards-info span {
     font-size: 12px;
+  }
+  .footer__content {
+    padding: 50px 10px;
+  }
+  .map__img-title {
+    left: 25%;
+    top: 40%;
+  }
+  .map__img-title span {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .map__img-title {
+    left: 18%;
+    top: 35%;
   }
 }
 

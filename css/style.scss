@@ -1276,7 +1276,7 @@ body {
             display: flex;
             justify-content: center;
             & textarea {
-                width: 99%;
+                width: 100%;
                 min-height: 190px;
                 overflow: auto;
                 resize: none;
@@ -1301,45 +1301,49 @@ body {
         }
     }
 }
-
-.map__img {
-    position: relative;
-    width: 100%;
-    & img {
-        width: 100%;
+.map{
+    & .container{
+        padding: 0;
     }
-    &-title {
-        position: absolute;
-        top: 45%;
-        left: 35%;
-        display: flex;
-        justify-content: center;
-        vertical-align: center;
-        & span {
-            color: #fff;
-            font-family: "Open Sans";
-            font-size: 24px;
-            line-height: 36px;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.8px;
+    &__img {
+        position: relative;
+        width: 100%;
+        & img {
+            width: 100%;
         }
-        & a {
-            margin-left: 20px;
-            width: 36px;
-            height: 36px;
-            background-color: #19bd9a;
-            border-radius: 18px;
-            position: relative;
-            &:before {
-                content: "\e900";
-                font-family: 'icomoon';
-                position: absolute;
-                top: 33%;
-                left: 31%;
-                width: 4px;
-                height: 3px;
+        &-title {
+            position: absolute;
+            top: 45%;
+            left: 35%;
+            display: flex;
+            justify-content: center;
+            vertical-align: center;
+            & span {
                 color: #fff;
+                font-family: "Open Sans";
+                font-size: 24px;
+                line-height: 36px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.8px;
+            }
+            & a {
+                margin-left: 20px;
+                width: 36px;
+                height: 36px;
+                background-color: #19bd9a;
+                border-radius: 18px;
+                position: relative;
+                &:before {
+                    content: "\e900";
+                    font-family: 'icomoon';
+                    position: absolute;
+                    top: 33%;
+                    left: 31%;
+                    width: 4px;
+                    height: 3px;
+                    color: #fff;
+                }
             }
         }
     }
@@ -1348,7 +1352,7 @@ body {
 .footer {
     background-color: #f3f3f3;
     &__content {
-        padding: 80px 500px;
+        padding: 80px 400px;
         text-align: center;
         &-title {
             color: #323a45;
